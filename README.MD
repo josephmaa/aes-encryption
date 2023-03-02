@@ -6,8 +6,8 @@ After creating a conda env with `conda env create -n demo`, run `conda install p
 
 To run the server, start the terminal with the following command:
 
-python3 server.py <PORT> <KEY>
-python3 python3 client.py <SERVER_IP> <PORT> <KEY>
+`python3 server.py <PORT> <KEY>`
+`python3 python3 client.py <SERVER_IP> <PORT> <KEY>`
 
 > > > (demo) ~/demo/secure_server % python3 server.py 1234 abcdefghnbfghasd 1:33:35
 > > > Waiting for clients to connect...
